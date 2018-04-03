@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- Links go below the title! -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Containers and the Grid System -->
+    <div class="container">
+        <div class="row">
+            <h1 class="col-md-6 offset-md-3">First Bootstrap Project</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1"> I </div>
+            <div class="col-md-10 text-center"> love </div>
+            <div class="col-md-1"> coding! </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Forms -->
+    <!-- Note: I gave the form a little (margin) space on the left and top to make it more readable. -->
+    <form class="ml-4 mt-3">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter password">
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Cats</label>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck2">
+            <label class="form-check-label" for="exampleCheck2">Dogs</label>
+        </div>
+
+        <!-- RADIO BUTTONS -->
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+            <label class="form-check-label" for="exampleRadios1">
+                Cheese Pizza
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+                Vegetable Pizza
+            </label>
+        </div>
+        <div class="form-check disabled">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+            <label class="form-check-label" for="exampleRadios3">
+                Meat Pizza
+            </label>
+        </div>
+
+        <input class="btn btn-primary" type="submit" value="Submit">
+        <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+    </form>
+
+    <!-- Cards -->
+    <!-- Note: Again, I used a little (margin) space on the top to separate the sections. -->
+    <div class="container mt-5 card-group">
+        <div class="row">
+            <div class="card col-4">
+                <div class="card-body">
+                    <h3 class="card-title">Kaitlyn</h3>
+                    <p class="card-text"> I have been friends with Kaitlyn since I was 3 years old. She is now married! </p>
+                </div>
+            </div>
+            <div class="card col-4">
+                <div class="card-body">
+                    <h3 class="card-title">Josh</h3>
+                    <p class="card-text"> Josh is my fiance. We have been engaged for a little over 4 years. </p>
+                </div>
+            </div>
+            <div class="card col-4">
+                <div class="card-body">
+                    <h3 class="card-title">Marilyn</h3>
+                    <p class="card-text"> Marilyn adopted one of the kittens I bottle fed a few years ago and we remain friends to this day. </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card col-4">
+                <div class="card-body">
+                    <h3 class="card-title">Scott</h3>
+                    <p class="card-text"> Scott is my younger brother. He is actually 5 years and 1 day younger than me! </p>
+                </div>
+            </div>
+            <div class="card col-4">
+                <div class="card-body">
+                    <h3 class="card-title">Caitlin</h3>
+                    <p class="card-text"> I met Caitlin in college. She now lives in Germany working some computer science related job. </p>
+                </div>
+            </div>
+            <div class="card col-4">
+                <div class="card-body">
+                    <h3 class="card-title">Amanda</h3>
+                    <p class="card-text"> I have known Amanda since 2007. She is now married with two kids! </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
